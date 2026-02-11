@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+    <title>Basic HTML page</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="code-section">
+        <h1>Hello, world!</h1>
+
+        <p class="code-section__note">To see your JavaScript code output, please, open browser console by pressing F12.
+        </p>
+    </section>
+
+    <script src="script.js"></script>
+
+    <script>
+        console.log("isValid('Stan Lee'): ", isValid('Stan Lee'));
+        console.log("isValid('Robert'): ", isValid('Robert'));
+
+        console.log("countChars('        '): ", countChars('        '))
+        console.log("countChars('Teodor'): ", countChars('Teodor'));
+        console.log("countChars('   Sam     '): ", countChars('   Sam     '));
+
+        console.log("sum(5, 7): ", sum(5, 7));
+
+        console.log("formatMoney(100): ", formatMoney(100));
+        console.log("formatMoney(100.889): ", formatMoney(100.889));
+
+        console.log("convertToBoolean(100): ", convertToBoolean(100));
+        console.log("convertToBoolean(true): ", convertToBoolean(true));
+        console.log("convertToBoolean('Some cool string'): ", convertToBoolean('Some cool string'));
+        console.log("convertToBoolean(null): ", convertToBoolean(null));
+        console.log("convertToBoolean(undefined): ", convertToBoolean(undefined));
+    </script>
+</body>
+
+</html>
